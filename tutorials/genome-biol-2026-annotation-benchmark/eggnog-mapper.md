@@ -6,10 +6,21 @@
 |---|---|
 | 名称 | EggNOG-mapper |
 | 源码 | https://github.com/eggnogdb/eggnog-mapper（亦提供在线版） |
-| 论文 | Cantalapiedra CP, et al. *Mol Biol Evol*. 2021;38:5825–5829（v2，引用约 4,800 次）；基准依据见 [选型速查](../../README.md#选型速查156033-个基因组的基准结论) |
+| 论文 | Cantalapiedra CP, et al. *Mol Biol Evol*. 2021;38:5825–5829（v2，引用约 4,800 次）；基准依据见 [同目录评测总览](benchmark.md) |
 | 输入 / 输出 | 蛋白序列或基因组 → 直系同源分组（OG）+ GO/KEGG 等功能注释 |
 | 资源需求 | 数据库约 51 GB；**内存大户**——基准实测中位 41.7 GB RAM（--dbmem 高内存模式，该模式硬件要求 44–48 GB）；中位 CPU 15.6 分钟/基因组 |
 | 边界 | 走直系同源推断路线，**只注释编码序列（CDS），不管 RNA** |
+
+## 仓库评估（2026-10-26 实地核验，github.com/eggnogdb/eggnog-mapper）
+
+| 维度 | 评定 | 依据 |
+|---|---|---|
+| 代码完整度 | ✅ | tests + CI + test_datasets；自带 `--selftest` 端到端安装自检 |
+| 可执行性 | ✅ | pip 安装 + bioconda 装搜索依赖 + singularity 镜像 + 免费网页版；`download_eggnog_data.py` 官方下库工具（当前核心库约 45 GB） |
+| 维护活跃度 | ✅ | 798 star、约 1,114 次提交；v3 大版本迭代中——注意 v3 面向 eggNOG 7 数据库、不兼容 eggNOG 5，需旧口径可 `pip install eggnog-mapper==2.1.15` 锁版本 |
+| 许可与合规 | ⚠️ | AGPL-3.0（传染性许可，商用集成前需评估） |
+
+**结论：达标纳入**——数据库体积基准口径 51 GB（论文当时版本），官方当前口径约 45 GB，以官方为准。
 
 ## 工具概述：它解决什么问题
 

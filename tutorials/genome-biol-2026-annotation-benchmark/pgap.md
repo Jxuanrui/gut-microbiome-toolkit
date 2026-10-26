@@ -6,10 +6,21 @@
 |---|---|
 | 名称 | PGAP（NCBI Prokaryotic Genome Annotation Pipeline） |
 | 源码 | https://github.com/ncbi/pgap（NCBI 官方，本地部署另有 NCBI 页面的分发与条款） |
-| 论文 | Tatusova T, et al. *Nucleic Acids Res*. 2016;44:6614–6624（引用约 7,300 次）；基准依据见 [选型速查](../../README.md#选型速查156033-个基因组的基准结论) |
+| 论文 | Tatusova T, et al. *Nucleic Acids Res*. 2016;44:6614–6624（引用约 7,300 次）；基准依据见 [同目录评测总览](benchmark.md) |
 | 输入 / 输出 | 基因组组装 + **需预先提供的分类信息** → 标准注释 |
 | 资源需求 | 数据库约 30.4 GB；基准实测中位 CPU 时间 106.6 分钟/基因组（四款中最慢，大规模本地部署成本可观） |
 | 特色 | 按物种定制注释策略；内置 ORFfinder 与 ProSplign 移码检测 |
+
+## 仓库评估（2026-10-26 实地核验，github.com/ncbi/pgap）
+
+| 维度 | 评定 | 依据 |
+|---|---|---|
+| 代码完整度 | ✅ | 官方 wiki 文档 + input.yaml 输入模板 + 入门网络研讨会视频；算法自 2001 年持续迭代（约 1,152 次提交） |
+| 可执行性 | ⚠️ | 无 conda/pip 一键通道：需 Linux + CWL（cwltool）+ 约 30 GB 补充数据，部署门槛为四款中最高（官方形态即如此） |
+| 维护活跃度 | ✅ | NCBI 官方持续维护（2 open issues），RefSeq 生产线同源 |
+| 许可与合规 | ⚠️ | 主体为美国政府公有领域作品；但捆绑组件有限制——GeneMarkS-2+ 有限制使用条款、CheckM 为 GPL-3、TIGRFAMs 为 CC BY-SA，再分发需逐项核对 |
+
+**结论：达标纳入**——部署门槛高已标注，教程提示词按"先读官方 wiki 再执行"设计。
 
 ## 工具概述：它解决什么问题
 

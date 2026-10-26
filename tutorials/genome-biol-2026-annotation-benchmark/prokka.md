@@ -6,9 +6,20 @@
 |---|---|
 | 名称 | Prokka |
 | 源码 | https://github.com/tseemann/prokka |
-| 论文 | Seemann T. *Bioinformatics*. 2014;30:2068–2069（引用约 19,000 次）；基准依据见 [选型速查](../../README.md#选型速查156033-个基因组的基准结论) |
+| 论文 | Seemann T. *Bioinformatics*. 2014;30:2068–2069（引用约 19,000 次）；基准依据见 [同目录评测总览](benchmark.md) |
 | 输入 / 输出 | 基因组组装（fasta）→ GFF3/GenBank 等标准注释输出 |
 | 资源需求 | 数据库不到 1 GB；基准实测中位 CPU 时间 3.2 分钟/基因组（四款中最快） |
+
+## 仓库评估（2026-10-26 实地核验，github.com/tseemann/prokka）
+
+| 维度 | 评定 | 依据 |
+|---|---|---|
+| 代码完整度 | ✅ | Perl 源码 + doc/test 目录 + CI；350 次提交、997 star（历史积累深厚） |
+| 可执行性 | ✅ | bioconda / docker（staphb/prokka）/ singularity 三通道，安装无障碍 |
+| 维护活跃度 | ❌ | **作者已声明停止维护**，官方推荐迁移至 Bakta；227 个 open issues 基本不再处理 |
+| 许可与合规 | ✅ | GPL-3.0 |
+
+**结论：不推荐新项目使用——保留仅作基准对照与历史复现**（与 Genome Biology 基准结论一致；本库此后对维护 ❌ 的工具不再纳入）。
 
 ## 工具概述：它解决什么问题
 

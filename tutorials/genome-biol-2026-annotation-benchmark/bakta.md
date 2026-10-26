@@ -6,9 +6,20 @@
 |---|---|
 | 名称 | Bakta |
 | 源码 | https://github.com/oschwengers/bakta（亦提供在线版，质量与本地执行相当） |
-| 论文 | Schwengers O, et al. *Microb Genomics*. 2021;7:000685（引用约 1,400 次）；基准依据见 [选型速查](../../README.md#选型速查156033-个基因组的基准结论) |
+| 论文 | Schwengers O, et al. *Microb Genomics*. 2021;7:000685（引用约 1,400 次）；基准依据见 [同目录评测总览](benchmark.md) |
 | 输入 / 输出 | 基因组组装（fasta）→ 标准化注释输出（GFF3/GenBank/FAA 等） |
 | 资源需求 | 完整数据库约 59.4 GB；基准实测中位 CPU 时间 36.8 分钟/基因组；另有 light 数据库供低资源场景 |
+
+## 仓库评估（2026-10-26 实地核验，github.com/oschwengers/bakta）
+
+| 维度 | 评定 | 依据 |
+|---|---|---|
+| 代码完整度 | ✅ | tests + pytest + CI + examples 目录；CITATION.cff、贡献指南齐备 |
+| 可执行性 | ✅ | conda / pip / docker 三通道；`bakta_db` 数据库工具（Zenodo 托管，full / light 双档）；另有免费在线版 |
+| 维护活跃度 | ✅ | 活跃维护：v1.9.4 + 数据库 v6.0，21 open issues / 9 PR / Discussions 开放 |
+| 许可与合规 | ✅ | GPL-3.0 |
+
+**结论：达标纳入**——四款中综合状态最佳。附注：数据库体积基准口径 59.4 GB（论文当时版本），官方 2026-10 README 口径 v6.0 full 约 84 GB、light 约 3.9 GB，安装前以官方为准。
 
 ## 工具概述：它解决什么问题
 
