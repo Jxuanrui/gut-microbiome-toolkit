@@ -4,8 +4,8 @@
 
 **逐个工具学透：工具信息 · 工具概述 · 算法实现 · VibeCoding 实战提示词**
 
-[![Papers](https://img.shields.io/badge/Papers-3-blue?style=flat-square)](https://github.com/Jxuanrui/gut-microbiome-toolkit/tree/main/tutorials)
-[![Tools](https://img.shields.io/badge/Tools-6-green?style=flat-square)](https://github.com/Jxuanrui/gut-microbiome-toolkit/tree/main/tutorials)
+[![Papers](https://img.shields.io/badge/Papers-4-blue?style=flat-square)](https://github.com/Jxuanrui/gut-microbiome-toolkit/tree/main/tutorials)
+[![Tools](https://img.shields.io/badge/Tools-7-green?style=flat-square)](https://github.com/Jxuanrui/gut-microbiome-toolkit/tree/main/tutorials)
 [![Stars](https://img.shields.io/github/stars/Jxuanrui/gut-microbiome-toolkit?style=flat-square&color=yellow)](https://github.com/Jxuanrui/gut-microbiome-toolkit/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/Jxuanrui/gut-microbiome-toolkit?style=flat-square&color=9CA3AF)](https://github.com/Jxuanrui/gut-microbiome-toolkit/commits/main)
 ![WeChat](https://img.shields.io/badge/WeChat-%E8%82%A0%E5%8A%A8%E5%BF%83%E5%BC%A6-07C160?style=flat-square&logo=wechat&logoColor=white)
@@ -23,6 +23,7 @@
 | **Deng Z-L, et al.** *Cell* 2026 | 跨域物种注释工具 **Metax**：用全基因组覆盖度统计识破注释里的"假信号"（肿瘤测序污染、试剂 DNA、参考库污染） | [metax.md](tutorials/cell-2026-metax/metax.md) |
 | **Fang L, et al.** *Bioinformatics* 2026 | 菌群大队列 × 代谢组小队列"拼接"，推断菌→代谢物→疾病通路的 R 包 **predmetab** | [predmetab.md](tutorials/bioinformatics-2026-predmetab/predmetab.md) |
 | **Jundzill M, et al.** *Genome Biol* 2026 | 四款原核注释工具（Prokka / Bakta / EggNOG-mapper / PGAP）156,033 个基因组大评测：没有全能冠军，只有分场景称王 | [benchmark.md](tutorials/genome-biol-2026-annotation-benchmark/benchmark.md) |
+| **Naranjani B, et al.** *Gut Microbes* 2026 | **BiotaPredictor**：输入分子结构，预测药物被肠道菌群"耗竭"的风险（含真实环境实测记录） | [biotapredictor.md](tutorials/gutmicrobes-2026-biotapredictor/biotapredictor.md) |
 
 ## 📖 每篇教程的读法
 
