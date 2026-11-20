@@ -4,7 +4,7 @@
 
 **逐个工具学透：工具信息 · 工具概述 · 算法实现 · VibeCoding 实战提示词**
 
-[![Papers](https://img.shields.io/badge/Papers-7-blue?style=flat-square)](https://github.com/Jxuanrui/gut-microbiome-toolkit/tree/main/tutorials)
+[![Papers](https://img.shields.io/badge/Papers-10-blue?style=flat-square)](https://github.com/Jxuanrui/gut-microbiome-toolkit/tree/main/tutorials)
 [![Tools](https://img.shields.io/badge/Tools-8-green?style=flat-square)](https://github.com/Jxuanrui/gut-microbiome-toolkit/tree/main/tutorials)
 [![Stars](https://img.shields.io/github/stars/Jxuanrui/gut-microbiome-toolkit?style=flat-square&color=yellow)](https://github.com/Jxuanrui/gut-microbiome-toolkit/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/Jxuanrui/gut-microbiome-toolkit?style=flat-square&color=9CA3AF)](https://github.com/Jxuanrui/gut-microbiome-toolkit/commits/main)
@@ -27,6 +27,9 @@
 | **Zelik L, et al.** *Nat Microbiol* 2026 | 抗生素"经菌群 vs 直接作用"拆解：解耦工具 **CompoRes** + 论文全套分析代码复现（含双仓库真实环境实测） | [composres.md](tutorials/natmicrobiol-2026-antibiotics/composres.md) · [reproduction.md](tutorials/natmicrobiol-2026-antibiotics/reproduction.md) |
 | **Chen C, et al.** *Nat Med* 2026 | 激素治疗改写菌群：主要不在肠道——356 人精准 MHT 框架（含流水线复现路径与模拟数据实测） | [reproduction.md](tutorials/natmed-2026-mht/reproduction.md) |
 | **Wirbel J, et al.** *Nat Med* 2026 | 移植菌群首支随机 3 期试验：植入时多样性不影响生存、基线才预测，PTCy 方案抑制菌群更猛（MIT 代码 + CC BY 数据，复现路径含元数据申请指引） | [reproduction.md](tutorials/natmed-2026-bmtctn1801/reproduction.md) |
+| **Nagata N, et al.** *Nat Med* 2026 | 生活方式与健康的菌群桥梁——6,803 人队列的两条对立介导轴（复现路径指引式：元数据受伦理限制，含申请通道与文件名对照要点） | [reproduction.md](tutorials/natmed-2026-lifestyle-axes/reproduction.md) |
+| **Brown CL, et al.** *Nat Commun* 2026 | 污水里的耐药信号：肠杆菌同步、假单胞菌滞后 1–3 个月（demo 合成数据本站实测跑通 + 真实管线缺口说明） | [reproduction.md](tutorials/natcomm-2026-wbs-resistance/reproduction.md) |
+| **Han J, et al.** *Nat Commun* 2026 | 法医菌群时钟 mHolmes：Transformer 迁移学习把死亡时间推断误差缩到 2 天内（`mhm` CLI 七模式复现路径 + 钉版环境要点） | [reproduction.md](tutorials/natcomm-2026-mholmes/reproduction.md) |
 
 ## 📖 每篇教程的读法
 
