@@ -4,7 +4,7 @@
 
 **逐个工具学透：工具信息 · 工具概述 · 算法实现 · VibeCoding 实战提示词**
 
-[![Papers](https://img.shields.io/badge/Papers-6-blue?style=flat-square)](https://github.com/Jxuanrui/gut-microbiome-toolkit/tree/main/tutorials)
+[![Papers](https://img.shields.io/badge/Papers-7-blue?style=flat-square)](https://github.com/Jxuanrui/gut-microbiome-toolkit/tree/main/tutorials)
 [![Tools](https://img.shields.io/badge/Tools-8-green?style=flat-square)](https://github.com/Jxuanrui/gut-microbiome-toolkit/tree/main/tutorials)
 [![Stars](https://img.shields.io/github/stars/Jxuanrui/gut-microbiome-toolkit?style=flat-square&color=yellow)](https://github.com/Jxuanrui/gut-microbiome-toolkit/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/Jxuanrui/gut-microbiome-toolkit?style=flat-square&color=9CA3AF)](https://github.com/Jxuanrui/gut-microbiome-toolkit/commits/main)
@@ -26,6 +26,8 @@
 | **Naranjani B, et al.** *Gut Microbes* 2026 | **BiotaPredictor**：输入分子结构，预测药物被肠道菌群"耗竭"的风险（含真实环境实测记录） | [biotapredictor.md](tutorials/gutmicrobes-2026-biotapredictor/biotapredictor.md) |
 | **Zelik L, et al.** *Nat Microbiol* 2026 | 抗生素"经菌群 vs 直接作用"拆解：解耦工具 **CompoRes** + 论文全套分析代码复现（含双仓库真实环境实测） | [composres.md](tutorials/natmicrobiol-2026-antibiotics/composres.md) · [reproduction.md](tutorials/natmicrobiol-2026-antibiotics/reproduction.md) |
 | **Chen C, et al.** *Nat Med* 2026 | 激素治疗改写菌群：主要不在肠道——356 人精准 MHT 框架（含流水线复现路径与模拟数据实测） | [reproduction.md](tutorials/natmed-2026-mht/reproduction.md) |
+| **Wirbel J, et al.** *Nat Med* 2026 | 移植菌群首支随机 3 期试验：植入时多样性不影响生存、基线才预测，PTCy 方案抑制菌群更猛（MIT 代码 + CC BY 数据，复现路径含元数据申请指引） | [reproduction.md](tutorials/natmed-2026-bmtctn1801/reproduction.md) |
+
 ## 📖 每篇教程的读法
 
 五段式结构，从"这仓库靠谱吗"一路读到"怎么用 AI 跑起来"：
